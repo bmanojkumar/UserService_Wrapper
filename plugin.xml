@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>de.meisterfuu.openfire.plugin.teamFantasian_UserServicePlugin</class>
+    <name>User Service</name>
+    <description>Allows administration of users via Pub-Sub Channels.</description>
+    <author>Manoj Kumar B</author>
+    <version>0.0.1</version>
+    <date>10/25/2014</date>
+    <minServerVersion>3.9.0</minServerVersion>
+    
+    <adminconsole>		
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+                <item id="teamFantasian_UserServicePlugin" name="teamFantasian_UserServicePlugin" url="teamFantasian_UserServicePlugin.jsp"
+                     description="Click to manage the service that allows to manage users using Pub-Sub Channels" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+   
+
+</plugin>
